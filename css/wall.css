@@ -1,6 +1,6 @@
 html, body {width: 100%; height: 100%;}
 .wall {width: 100%; height: 100%;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.jpeg);
     overflow: hidden;
     background-color: #AA4A44;
     background-size: 100% 100% ;
@@ -10,6 +10,7 @@ html, body {width: 100%; height: 100%;}
 .messages {width: 30%;  float: left;  position: relative; top: 52px; left: 0}
 #myCanvas {
     padding-left: 10%;
+    padding-top: 7%;
 }
 
 /*照片墙*/
