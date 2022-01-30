@@ -67,7 +67,6 @@
             -moz-box-sizing: border-box;
             box-sizing: border-box;
         }
-
         .pure-button {
             font-family: inherit;
             font-size: 100%;
@@ -97,29 +96,36 @@
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
         }
         .button-success {
-            background: rgb(28, 184, 65);
+            background: #E97451;
+            color: black;
         }
         .button-error {
             background: rgb(202, 60, 60);
         }
         .button-warning {
-            background: rgb(223, 117, 20);
+            background: #000;
         }
         .button-secondary {
-            background: rgb(66, 184, 221);
+            background: #ffb43b;
+            color: black;
+            font-weight: bolder;
         }
         .tools {
             position: absolute;
-            bottom: 20px;
-            right: 20px;
-            text-align: center;
+            bottom: 140px;
+            margin-left: calc(50% - 200px);
         }
         .tools .pure-button {
             display: inline-block;
             margin: 5px;
             padding: 10px 0;
             text-align: center;
-            width:50px;
+            width:200px;
+            border: 3px solid white;
+
+        }
+        .hide {
+            display: none !important;
         }
         .mask {
             -webkit-filter:blur(5px);
@@ -141,7 +147,7 @@
 <body>
 <div id="main" class="wall">
     <div class="result-btn">
-       <a href="./result.html" target="_blank">获奖名单</a>
+       <a href="./result.html" target="_blank"></a>
     </div>
 </div>
 <div id="result" class="result">
@@ -150,14 +156,14 @@
      <button
         v-for="value in btns"
         @click="onClick(value)"
-        class="pure-button"
+        class="hide"
         :class="{ 'button-error': selected == value}"
        >{{value}}</button>
     <button
-       class="pure-button"
+       class="pure-button start-button"
        @click="toggle"
        :class="{'button-secondary': !running,
-               'button-success': running}">{{running?'停!':'开始'}}</button>
+               'button-success': running}">{{running?'停!':'马上抽奖'}}</button>
     <button class="pure-button button-warning" @click="reset">重置</button>
 </div>
 <script type="text/javascript" src="js/zepto.js"></script>
@@ -212,13 +218,13 @@
         };
         var canvas = document.createElement('canvas');
         canvas.id = 'myCanvas';
-        canvas.width = document.body.offsetWidth;
-        canvas.height = document.body.offsetHeight;
+        canvas.width =  0.8 * document.body.offsetWidth ;
+        canvas.height = 0.8 * document.body.offsetHeight ;
         document.getElementById('main').appendChild(canvas);
         new Vue({
             el: '#tools',
             data: {
-                selected: 30,
+                selected: 1,
                 running: false,
                 btns: [
                     30, 10, 5, 2, 1
