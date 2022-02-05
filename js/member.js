@@ -84,5 +84,17 @@ var member = [
 {"name" : "Ligang Chen"},
 {"name" : "Jun Zhao"},
 {"name" : "Bin Liu"},
+ {"name" : "Taoyuan Liao"},
+ {"name" : "Sherry Pan"},
+ {"name" : "Joshua Huang"},
+ {"name" : "Jenny Huang"},
+ {"name" : "Jiuhui Huang"},
+ {"name" : "Peter yan"},
+ {"name" : "Steven Wang"},
+ {"name" : "xi sai"},
+ {"name" : "Wei Li"},
+ {"name" : "菱 李"},
+ {"name" : "Grace Miao"},
+ {"name" : "Sarah Wu"},
 {"name" : "Ping Lu"}
 ]
