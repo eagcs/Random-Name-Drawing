@@ -19,7 +19,7 @@
             text-align: center;
             padding: 8px;
             margin-left: calc(50% - 175px);
-            background: #ffc300;
+            background-image: linear-gradient(#0096FF, #0047AB);
             border-radius: 25px;
         }
 
@@ -33,7 +33,6 @@
             display: inherit;
             font-size: 45px;
             width: 350px;
-            background: #D22B2B;
             line-height: 75px;
             color: #fff;
             padding: 10px 0;
@@ -146,6 +145,14 @@
             text-decoration: none;
             color: white;
         }
+
+        #title {
+                position: absolute;
+                top: 43px;
+                margin-left: calc(50% - 110px);
+                    color: #fff;
+    font-size: 35px;
+        }
     </style>
 </head>
 <body>
@@ -154,9 +161,11 @@
        <a href="./result.html" target="_blank"></a>
     </div>
 </div>
+
 <div id="result" class="result">
 
 </div>
+<div id="title"><h1>北卡浙大十周年</h1></div>
 <div id="tools" class="tools">
      <button
         v-for="value in btns"
