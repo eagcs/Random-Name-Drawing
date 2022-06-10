@@ -1,6 +1,6 @@
 # 抽奖程序
 
-[demo](https://eagcs.github.io/Random-Name-Drawing)
+[demo](https://eagcs.github.io/Random-Name-Drawing/)
 
 
 
