@@ -1,6 +1,6 @@
-# N年前写的年会抽奖程序
+# 抽奖程序
 
-[demo](https://fouber.github.io/lottery/)
+[demo](https://eagcs.github.io/Random-Name-Drawing)
 
 
 
