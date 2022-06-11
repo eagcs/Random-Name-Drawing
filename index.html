@@ -100,7 +100,7 @@
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
         }
         .button-success {
-            background: #7285FF;
+            background: #3B86FF;
             color: white;
             font-weight: bolder;
         }
@@ -111,7 +111,7 @@
             background: #000;
         }
         .button-secondary {
-            background: #FFEC72;
+            background: #FFB43B;
             color: white;
             font-weight: bolder;
         }
@@ -191,7 +191,7 @@
             member.forEach(function(item, index){
                 item.index = index;
                 var key = getKey(item);
-                var color = choosed[key] ? 'blue' : 'orange';    /* colors assigned to names */
+                var color = choosed[key] ? 'blue' : 'magenta';    /* colors assigned to names */
                 html.push('<li><a href="#" style="color: ' + color + ';">' + item.name + '</a></li>');
             });
             html.push('</ul>');
