@@ -3,9 +3,11 @@ var member = [
 {"name": "Abigail Luo", "phone": "GT"},
 {"name": "Cindy Chen", "phone": "G&G, JRC"},
 {"name": "Cindy Gu", "phone": "iTeach"},
-{"name": "Dawn Liang", "phone": "IT"},
+{"name": "Cindy Sun", "phone": "G&G"},
+{"name": "Dawn Liang", "phone": "Secretary IT"},
 {"name": "Feng Li", "phone": "JRC"},
-{"name": "Fengkai Zhang", "phone": "IT, RHTC, JRC"},
+{"name": "Fengkai Zhang", "phone": "Board, IT, RHTC, JRC"},
+{"name": "Gavin Ye", "phone": "Business"},
 {"name": "Grace - Jeremy's Mom", "phone": "JRC"},
 {"name": "Harmony Huang", "phone": "iTeach, JRC"},
 {"name": "Hong - Hongjin's Mom", "phone": "JRC"},
@@ -33,17 +35,18 @@ var member = [
 {"name": "Rui Zhang", "phone": "G&G"},
 {"name": "Sally Wu", "phone": "Service, GT"},
 {"name": "Shelly Liu", "phone": "Service"},
-{"name": "Shuhong Li", "phone": "GT"},
+{"name": "Shuhong Li", "phone": "Board, GT"},
 {"name": "Sun Ozbun", "phone": "G&G"},
-{"name": "Tao Chen", "phone": "GT"},
-{"name": "Vivian Jiang", "phone": "IT, iTeach, JRC"},
+{"name": "Tao Chen", "phone": "Board, GT"},
+{"name": "Tao Chen", "phone": "President, Board, GT"},
+{"name": "Vivian Jiang", "phone": "Board, IT, iTeach, JRC"},
 {"name": "Vivian Xu", "phone": "iTeach, JRC"},
 {"name": "Winnie Gao", "phone": "iTeach"},
 {"name": "Xiaoning He", "phone": "GT"},
 {"name": "Xun Sun", "phone": "JRC"},
 {"name": "Yanna Wu", "phone": "JRC"},
 {"name": "Yuxia Jia", "phone": "RHTC"},
-{"name": "Zhendong Chen", "phone": "JRC"},
+{"name": "Zhendong Chen", "phone": "Board, JRC"},
 {"name": "Zongyu Zheng", "phone": "RHTC"},
 {"name": "Aiden Liu", "phone": "SEEDS"},
 {"name": "Amy Chen", "phone": "SEEDS"},
@@ -106,10 +109,15 @@ var member = [
 {"name": "Vicky Shan", "phone": "JRC"},
 {"name": "Vincent Xie", "phone": "Service"},
 {"name": "Wendy Xie", "phone": "G&G, Service"},
-{"name": "Yalan Cai", "phone": "Service"},
-{"name": "Yanlan Cai", "phone": "G&G"},
+{"name": "Yanlan Cai", "phone": "Service, G&G"},
 {"name": "Yongyue Li", "phone": "Service"},
 {"name": "Zhuqing Jiang", "phone": "G&G"}
-
-
+{"name": "Lily Qi", "phone": "Maryland State Delegate"}
+{"name": "Sidney Katz", "phone": "County Council"}
+{"name": "Branda Wolff", "phone": "BOE"}
+{"name": "Judy Docca", "phone": "BOE"}
+{"name": "Scoot Joftus", "phone": "BOE"}
+{"name": "Michael Dorso", "phone": "Former BOE"}
+{"name": "Anamileth Silva", "phone": "Senator Chris Van Hollen's office"}
+{"name": "Ruschelle Reuben", "phone": "MCPS Chief of teaching, learning, and schools"}
 ]
