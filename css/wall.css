@@ -2,7 +2,7 @@ html, body {width: 100%; height: 100%;}
 .wall {width: 100%; height: 100%;
     background-image: url(../img/bg.jpeg);
     overflow: hidden;
-    background-color: #AA4A44;
+    background-color: #3945cc;
     background-size: 100% 100% ;
     background-position: center center;
     background-repeat: no-repeat;}
@@ -140,4 +140,4 @@ height: 65px;
 #qrcode img{width:100%;}
 #qrcode {background: white; padding: 5px;}
 
-.logo{color:#3945cc;font-family: "Microsoft YaHei"; font-weight: bold; font-size: 13px; position: absolute;left:20px; bottom:20px;}
+.logo{color:#D13C3F;font-family: "Microsoft YaHei"; font-weight: bold; font-size: 13px; position: absolute;left:20px; bottom:20px;}
