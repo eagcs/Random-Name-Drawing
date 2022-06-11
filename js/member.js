@@ -111,13 +111,13 @@ var member = [
 {"name": "Wendy Xie", "phone": "G&G, Service"},
 {"name": "Yanlan Cai", "phone": "Service, G&G"},
 {"name": "Yongyue Li", "phone": "Service"},
-{"name": "Zhuqing Jiang", "phone": "G&G"}
-{"name": "Lily Qi", "phone": "Maryland State Delegate"}
-{"name": "Sidney Katz", "phone": "County Council"}
-{"name": "Branda Wolff", "phone": "BOE"}
-{"name": "Judy Docca", "phone": "BOE"}
-{"name": "Scoot Joftus", "phone": "BOE"}
-{"name": "Michael Dorso", "phone": "Former BOE"}
-{"name": "Anamileth Silva", "phone": "Senator Chris Van Hollen's office"}
+{"name": "Zhuqing Jiang", "phone": "G&G"},
+{"name": "Lily Qi", "phone": "Maryland State Delegate"},
+{"name": "Sidney Katz", "phone": "County Council"},
+{"name": "Branda Wolff", "phone": "BOE"},
+{"name": "Judy Docca", "phone": "BOE"},
+{"name": "Scoot Joftus", "phone": "BOE"},
+{"name": "Michael Dorso", "phone": "Former BOE"},
+{"name": "Anamileth Silva", "phone": "Senator Chris Van Hollen's office"},
 {"name": "Ruschelle Reuben", "phone": "MCPS Chief of teaching, learning, and schools"}
 ]
